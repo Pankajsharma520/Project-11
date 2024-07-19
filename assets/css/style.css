@@ -5,11 +5,11 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+    font-family: "DM Sans", sans-serif;
 }
 
 section {
-    height: 100vh;
-    display: flex;
+    min-height: 100vh;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -26,12 +26,9 @@ font-size: 42px;
 line-height: 52px;
 letter-spacing: -0.4000000059604645px;
 text-align: center;
-font-family: "DM Sans", sans-serif;
 color: #1E0E62;
-width: 289px;
-height: 52px;
 margin-bottom: 40px;
-margin-left: 341px;
+
 }
 .features{
 color: #A1A1B0;
@@ -39,7 +36,6 @@ font-size: 14px;
 line-height: 26px;
 letter-spacing: 2px;
 text-align: left;
-font-family: "DM Sans", sans-serif;
 padding-left: 30px; 
 
 }
@@ -49,7 +45,6 @@ font-size: 14px;
 line-height: 26px;
 letter-spacing: 2px;
 
-font-family: "DM Sans", sans-serif;
 
 }
 .pro{
@@ -58,14 +53,12 @@ font-size: 14px;
 line-height: 26px;
 letter-spacing: 2px;
 
-font-family: "DM Sans", sans-serif;
 }
 .f-list{
  color: #1E0E62;
 font-size: 16px;
 font-weight: 550;
 line-height: 26px;
-font-family: "DM Sans", sans-serif;
 padding-left: 30px;
 }
 .description{
@@ -74,7 +67,6 @@ font-size: 16px;
 font-weight: 550;
 line-height: 26px;
 text-align: left;
-font-family: "DM Sans", sans-serif;
 }
 .free-list{
     color: #1E0E62;
@@ -82,7 +74,7 @@ font-family: "DM Sans", sans-serif;
     font-weight: 550;
     line-height: 26px;
     text-align: left;
-    font-family: "DM Sans", sans-serif;
+
 
 }
 .pro-list{
@@ -91,13 +83,20 @@ font-family: "DM Sans", sans-serif;
     font-weight: 550;
     line-height: 26px;
     text-align: left;
-    font-family: "DM Sans", sans-serif;
+
 }
 table{
     width: 970px;
 height: 390px;
 border-collapse: collapse;
+margin-left: auto;
+margin-right: auto;
 }
+
 .bg{
     background-color: #F5F5F6;
+}
+
+.data{
+    overflow: auto;
 }
